@@ -1,0 +1,93 @@
+body {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  margin: 0;
+  padding: 0;
+  background: #F7F7F7;
+  color: #1A1A1A;
+}
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #1A1A1A;
+    color: white;
+  }
+  
+  nav {
+    display: none;
+    flex-direction: column;
+    background: #1A1A1A;
+  }
+  
+  nav a {
+    padding: 10px;
+    color: #F7F7F7;
+    text-decoration: none;
+  }
+  
+  nav.aberto {
+    display: flex;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: #D8C6B1;
+  }
+  
+  .botao-whats {
+    background: #00ec10;
+    color: #F7F7F7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #1A1A1A;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  /* Tablet e acima */
+  @media (min-width: 768px) {
+    nav {
+      display: flex !important;
+      flex-direction: row;
+      gap: 20px;
+      background: #1A1A1A;
+    }
+  
+    #btnMenu {
+      display: none;
+    }
+  }
+
+.merriweather-consultorio {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
